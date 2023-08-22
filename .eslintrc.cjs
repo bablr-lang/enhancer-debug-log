@@ -15,6 +15,7 @@ module.exports = {
   globals: {
     require: 'readonly',
     module: 'readonly',
+    console: 'readonly',
     Map: 'readonly',
     Set: 'readonly',
     WeakMap: 'readonly',

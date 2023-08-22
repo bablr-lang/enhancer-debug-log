@@ -13,6 +13,9 @@
   },
   "sideEffects": false,
   "dependencies": {
+    "@bablr/helpers": "github:bablr-lang/helpers#97d43d667a3532d6f0160fb4c999178073ab1bc0",
+    "@bablr/miniparser": "github:bablr-lang/miniparser#59b5a6e83ea0beddb243dcb5ea4ed2f20e053d0a",
+    "@bablr/miniparser-language-cstml-matchable": "github:bablr-lang/miniparser-language-cstml-matchable#c19cba669a9da9ae685be50f78360081c7af9b3b"
   },
   "devDependencies": {
     "enhanced-resolve": "^5.12.0",

@@ -1,11 +1,19 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@bablr/helpers': github:bablr-lang/helpers#97d43d667a3532d6f0160fb4c999178073ab1bc0
+  '@bablr/miniparser': github:bablr-lang/miniparser#59b5a6e83ea0beddb243dcb5ea4ed2f20e053d0a
+  '@bablr/miniparser-language-cstml-matchable': github:bablr-lang/miniparser-language-cstml-matchable#c19cba669a9da9ae685be50f78360081c7af9b3b
   enhanced-resolve: ^5.12.0
   eslint: ^7.32.0
   eslint-import-resolver-enhanced-resolve: ^1.0.5
   eslint-plugin-import: ^2.27.5
   prettier: ^2.6.2
+
+dependencies:
+  '@bablr/helpers': github.com/bablr-lang/helpers/97d43d667a3532d6f0160fb4c999178073ab1bc0
+  '@bablr/miniparser': github.com/bablr-lang/miniparser/59b5a6e83ea0beddb243dcb5ea4ed2f20e053d0a
+  '@bablr/miniparser-language-cstml-matchable': github.com/bablr-lang/miniparser-language-cstml-matchable/c19cba669a9da9ae685be50f78360081c7af9b3b
 
 devDependencies:
   enhanced-resolve: 5.15.0
@@ -431,6 +439,11 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
     dev: true
+
+  /escape-string-regexp/5.0.0:
+    resolution: {integrity: sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==}
+    engines: {node: '>=12'}
+    dev: false
 
   /eslint-import-resolver-enhanced-resolve/1.0.5:
     resolution: {integrity: sha512-Ss07NWhqdeOHq+Jevl4f5gPqHoRKyNTSXUoLxP/dMCXUUCsowGFv7/ccJ4fMcAdeqL+WhfA/p4AYWbtY6fB0wQ==}
@@ -1441,3 +1454,51 @@ packages:
   /yallist/4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
     dev: true
+
+  github.com/bablr-lang/grammar/f0a39a03a03db3f921c88698f65c1a4aa0f735d5:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/grammar/tar.gz/f0a39a03a03db3f921c88698f65c1a4aa0f735d5}
+    name: '@bablr/grammar'
+    version: 0.0.0
+    dev: false
+
+  github.com/bablr-lang/grammar/fa62bc72a6f4515b96fafc90c4cb64c407ef8033:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/grammar/tar.gz/fa62bc72a6f4515b96fafc90c4cb64c407ef8033}
+    name: '@bablr/grammar'
+    version: 0.0.0
+    dev: false
+
+  github.com/bablr-lang/helpers/97d43d667a3532d6f0160fb4c999178073ab1bc0:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/helpers/tar.gz/97d43d667a3532d6f0160fb4c999178073ab1bc0}
+    name: '@bablr/helpers'
+    version: 0.0.0
+    dependencies:
+      '@bablr/grammar': github.com/bablr-lang/grammar/fa62bc72a6f4515b96fafc90c4cb64c407ef8033
+      escape-string-regexp: 5.0.0
+    dev: false
+
+  github.com/bablr-lang/miniparser-language-cstml-matchable/c19cba669a9da9ae685be50f78360081c7af9b3b:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/miniparser-language-cstml-matchable/tar.gz/c19cba669a9da9ae685be50f78360081c7af9b3b}
+    name: '@bablr/miniparser-language-cstml-matchable'
+    version: 0.0.0
+    engines: {node: '>=12.0.0'}
+    dependencies:
+      '@bablr/grammar': github.com/bablr-lang/grammar/f0a39a03a03db3f921c88698f65c1a4aa0f735d5
+      '@bablr/miniparser-language-nonbacktracking-js-regex': github.com/bablr-lang/miniparser-language-nonbacktracking-js-regex/67048e56d28c7078aa6978c927e8a9ee1c196918
+    dev: false
+
+  github.com/bablr-lang/miniparser-language-nonbacktracking-js-regex/67048e56d28c7078aa6978c927e8a9ee1c196918:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/miniparser-language-nonbacktracking-js-regex/tar.gz/67048e56d28c7078aa6978c927e8a9ee1c196918}
+    name: '@bablr/miniparser-language-nonbacktracking-js-regex'
+    version: 0.0.0
+    engines: {node: '>=12.0.0'}
+    dependencies:
+      '@bablr/grammar': github.com/bablr-lang/grammar/f0a39a03a03db3f921c88698f65c1a4aa0f735d5
+    dev: false
+
+  github.com/bablr-lang/miniparser/59b5a6e83ea0beddb243dcb5ea4ed2f20e053d0a:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/miniparser/tar.gz/59b5a6e83ea0beddb243dcb5ea4ed2f20e053d0a}
+    name: '@bablr/miniparser'
+    version: 0.0.0
+    dependencies:
+      escape-string-regexp: 5.0.0
+    dev: false
