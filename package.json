@@ -15,7 +15,7 @@
   "dependencies": {
     "@bablr/helpers": "github:bablr-lang/helpers#8fa554e75445dfe21cface02f6faf62890bdfe0d",
     "@bablr/miniparser": "github:bablr-lang/miniparser#e17fcf1a2e9c89e14ee047d8f1fe5469c916179f",
-    "@bablr/miniparser-language-cstml-matchable": "github:bablr-lang/miniparser-language-cstml-matchable#c19cba669a9da9ae685be50f78360081c7af9b3b"
+    "@bablr/miniparser-language-cstml-matchable": "github:bablr-lang/miniparser-language-cstml-matchable#ffa2e7c824860091b759b281f81ed0994d277525"
   },
   "devDependencies": {
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e",
