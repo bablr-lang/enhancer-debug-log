@@ -4,7 +4,7 @@ specifiers:
   '@bablr/eslint-config-base': github:bablr-lang/eslint-config-base#a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e
   '@bablr/helpers': github:bablr-lang/helpers#8fa554e75445dfe21cface02f6faf62890bdfe0d
   '@bablr/miniparser': github:bablr-lang/miniparser#e17fcf1a2e9c89e14ee047d8f1fe5469c916179f
-  '@bablr/miniparser-language-cstml-matchable': github:bablr-lang/miniparser-language-cstml-matchable#ffa2e7c824860091b759b281f81ed0994d277525
+  '@bablr/miniparser-language-cstml-matchable': github:bablr-lang/miniparser-language-cstml-matchable#e0c3f4931056fade96fd036f87eb230db308a1ea
   enhanced-resolve: ^5.12.0
   eslint: ^7.32.0
   eslint-import-resolver-enhanced-resolve: ^1.0.5
@@ -14,7 +14,7 @@ specifiers:
 dependencies:
   '@bablr/helpers': github.com/bablr-lang/helpers/8fa554e75445dfe21cface02f6faf62890bdfe0d
   '@bablr/miniparser': github.com/bablr-lang/miniparser/e17fcf1a2e9c89e14ee047d8f1fe5469c916179f
-  '@bablr/miniparser-language-cstml-matchable': github.com/bablr-lang/miniparser-language-cstml-matchable/ffa2e7c824860091b759b281f81ed0994d277525
+  '@bablr/miniparser-language-cstml-matchable': github.com/bablr-lang/miniparser-language-cstml-matchable/e0c3f4931056fade96fd036f87eb230db308a1ea
 
 devDependencies:
   '@bablr/eslint-config-base': github.com/bablr-lang/eslint-config-base/a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e_eslint@7.32.0
@@ -1829,6 +1829,15 @@ packages:
       '@bablr/miniparser': github.com/bablr-lang/miniparser/6442bc64713d1cb4661a061d567cdceaf36be32c
       '@bablr/miniparser-language-cstml-matchable': github.com/bablr-lang/miniparser-language-cstml-matchable/ffa2e7c824860091b759b281f81ed0994d277525
       iter-tools-es: 7.5.3
+    dev: false
+
+  github.com/bablr-lang/miniparser-language-cstml-matchable/e0c3f4931056fade96fd036f87eb230db308a1ea:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/miniparser-language-cstml-matchable/tar.gz/e0c3f4931056fade96fd036f87eb230db308a1ea}
+    name: '@bablr/miniparser-language-cstml-matchable'
+    version: 0.0.0
+    engines: {node: '>=12.0.0'}
+    dependencies:
+      '@bablr/miniparser-language-nonbacktracking-js-regex': github.com/bablr-lang/miniparser-language-nonbacktracking-js-regex/67048e56d28c7078aa6978c927e8a9ee1c196918
     dev: false
 
   github.com/bablr-lang/miniparser-language-cstml-matchable/ffa2e7c824860091b759b281f81ed0994d277525:
