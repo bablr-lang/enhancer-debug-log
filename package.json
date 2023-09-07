@@ -13,12 +13,11 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@bablr/helpers": "github:bablr-lang/helpers#8fa554e75445dfe21cface02f6faf62890bdfe0d",
-    "@bablr/miniparser": "github:bablr-lang/miniparser#e17fcf1a2e9c89e14ee047d8f1fe5469c916179f",
-    "@bablr/miniparser-language-cstml-matchable": "github:bablr-lang/miniparser-language-cstml-matchable#e0c3f4931056fade96fd036f87eb230db308a1ea"
+    "@bablr/helpers": "github:bablr-lang/helpers#8392d99dc6623673cb96163551fe43cefa49609c",
+    "@bablr/miniparser": "github:bablr-lang/miniparser#558833819c9d071e85f038517499463e2c7e1baf"
   },
   "devDependencies": {
-    "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e",
+    "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#c040bc95f2dddac160628e4757a412016044b3ef",
     "enhanced-resolve": "^5.12.0",
     "eslint": "^7.32.0",
     "eslint-import-resolver-enhanced-resolve": "^1.0.5",
