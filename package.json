@@ -14,7 +14,7 @@
   "sideEffects": false,
   "dependencies": {
     "@bablr/helpers": "github:bablr-lang/helpers#8392d99dc6623673cb96163551fe43cefa49609c",
-    "@bablr/miniparser": "github:bablr-lang/miniparser#558833819c9d071e85f038517499463e2c7e1baf"
+    "@bablr/miniparser": "github:bablr-lang/miniparser#3d3a0e2a2d7985f6a2d7857c62eccda72e7080ca"
   },
   "devDependencies": {
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#c040bc95f2dddac160628e4757a412016044b3ef",

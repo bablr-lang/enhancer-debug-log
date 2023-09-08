@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@bablr/eslint-config-base': github:bablr-lang/eslint-config-base#c040bc95f2dddac160628e4757a412016044b3ef
   '@bablr/helpers': github:bablr-lang/helpers#8392d99dc6623673cb96163551fe43cefa49609c
-  '@bablr/miniparser': github:bablr-lang/miniparser#558833819c9d071e85f038517499463e2c7e1baf
+  '@bablr/miniparser': github:bablr-lang/miniparser#3d3a0e2a2d7985f6a2d7857c62eccda72e7080ca
   enhanced-resolve: ^5.12.0
   eslint: ^7.32.0
   eslint-import-resolver-enhanced-resolve: ^1.0.5
@@ -12,7 +12,7 @@ specifiers:
 
 dependencies:
   '@bablr/helpers': github.com/bablr-lang/helpers/8392d99dc6623673cb96163551fe43cefa49609c
-  '@bablr/miniparser': github.com/bablr-lang/miniparser/558833819c9d071e85f038517499463e2c7e1baf
+  '@bablr/miniparser': github.com/bablr-lang/miniparser/3d3a0e2a2d7985f6a2d7857c62eccda72e7080ca
 
 devDependencies:
   '@bablr/eslint-config-base': github.com/bablr-lang/eslint-config-base/c040bc95f2dddac160628e4757a412016044b3ef_eslint@7.32.0
@@ -1838,6 +1838,14 @@ packages:
     engines: {node: '>=12.0.0'}
     dependencies:
       '@bablr/miniparser-language-nonbacktracking-js-regex': github.com/bablr-lang/miniparser-language-nonbacktracking-js-regex/4bb4de83d060b2e1caf7d9c9646b8780f87cced8
+    dev: false
+
+  github.com/bablr-lang/miniparser/3d3a0e2a2d7985f6a2d7857c62eccda72e7080ca:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/miniparser/tar.gz/3d3a0e2a2d7985f6a2d7857c62eccda72e7080ca}
+    name: '@bablr/miniparser'
+    version: 0.0.0
+    dependencies:
+      escape-string-regexp: 5.0.0
     dev: false
 
   github.com/bablr-lang/miniparser/558833819c9d071e85f038517499463e2c7e1baf:
