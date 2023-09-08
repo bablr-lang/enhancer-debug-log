@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@bablr/eslint-config-base': github:bablr-lang/eslint-config-base#c040bc95f2dddac160628e4757a412016044b3ef
-  '@bablr/helpers': github:bablr-lang/helpers#8392d99dc6623673cb96163551fe43cefa49609c
+  '@bablr/helpers': github:bablr-lang/helpers#2baf82d1729b52fcf3f954147d313bcd91b6e8ac
   '@bablr/miniparser': github:bablr-lang/miniparser#3d3a0e2a2d7985f6a2d7857c62eccda72e7080ca
   enhanced-resolve: ^5.12.0
   eslint: ^7.32.0
@@ -11,7 +11,7 @@ specifiers:
   prettier: ^2.6.2
 
 dependencies:
-  '@bablr/helpers': github.com/bablr-lang/helpers/8392d99dc6623673cb96163551fe43cefa49609c
+  '@bablr/helpers': github.com/bablr-lang/helpers/2baf82d1729b52fcf3f954147d313bcd91b6e8ac
   '@bablr/miniparser': github.com/bablr-lang/miniparser/3d3a0e2a2d7985f6a2d7857c62eccda72e7080ca
 
 devDependencies:
@@ -1813,14 +1813,14 @@ packages:
       - supports-color
     dev: true
 
-  github.com/bablr-lang/helpers/8392d99dc6623673cb96163551fe43cefa49609c:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/helpers/tar.gz/8392d99dc6623673cb96163551fe43cefa49609c}
+  github.com/bablr-lang/helpers/2baf82d1729b52fcf3f954147d313bcd91b6e8ac:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/helpers/tar.gz/2baf82d1729b52fcf3f954147d313bcd91b6e8ac}
     name: '@bablr/helpers'
     version: 0.0.0
     dependencies:
-      '@bablr/miniparser': github.com/bablr-lang/miniparser/558833819c9d071e85f038517499463e2c7e1baf
+      '@bablr/miniparser': github.com/bablr-lang/miniparser/3d3a0e2a2d7985f6a2d7857c62eccda72e7080ca
       '@bablr/miniparser-language-nonbacktracking-js-regex': github.com/bablr-lang/miniparser-language-nonbacktracking-js-regex/4bb4de83d060b2e1caf7d9c9646b8780f87cced8
-      '@bablr/miniparser-language-spamex': github.com/bablr-lang/miniparser-language-spamex/5e55c6bc3b022ea67bdb0de819c56e3c69977e8d
+      '@bablr/miniparser-language-spamex': github.com/bablr-lang/miniparser-language-spamex/274540b3bd22bacf0275f4227ffeff1ecb085b8d
       iter-tools-es: 7.5.3
     dev: false
 
@@ -1831,8 +1831,8 @@ packages:
     engines: {node: '>=12.0.0'}
     dev: false
 
-  github.com/bablr-lang/miniparser-language-spamex/5e55c6bc3b022ea67bdb0de819c56e3c69977e8d:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/miniparser-language-spamex/tar.gz/5e55c6bc3b022ea67bdb0de819c56e3c69977e8d}
+  github.com/bablr-lang/miniparser-language-spamex/274540b3bd22bacf0275f4227ffeff1ecb085b8d:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/miniparser-language-spamex/tar.gz/274540b3bd22bacf0275f4227ffeff1ecb085b8d}
     name: '@bablr/miniparser-language-spamex'
     version: 0.0.0
     engines: {node: '>=12.0.0'}
@@ -1842,14 +1842,6 @@ packages:
 
   github.com/bablr-lang/miniparser/3d3a0e2a2d7985f6a2d7857c62eccda72e7080ca:
     resolution: {tarball: https://codeload.github.com/bablr-lang/miniparser/tar.gz/3d3a0e2a2d7985f6a2d7857c62eccda72e7080ca}
-    name: '@bablr/miniparser'
-    version: 0.0.0
-    dependencies:
-      escape-string-regexp: 5.0.0
-    dev: false
-
-  github.com/bablr-lang/miniparser/558833819c9d071e85f038517499463e2c7e1baf:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/miniparser/tar.gz/558833819c9d071e85f038517499463e2c7e1baf}
     name: '@bablr/miniparser'
     version: 0.0.0
     dependencies:
