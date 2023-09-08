@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@bablr/eslint-config-base': github:bablr-lang/eslint-config-base#c040bc95f2dddac160628e4757a412016044b3ef
-  '@bablr/helpers': github:bablr-lang/helpers#2baf82d1729b52fcf3f954147d313bcd91b6e8ac
+  '@bablr/helpers': github:bablr-lang/helpers#c26354b7bd6f33e25056bc5ee8da8ce0c048872d
   '@bablr/miniparser': github:bablr-lang/miniparser#3d3a0e2a2d7985f6a2d7857c62eccda72e7080ca
   enhanced-resolve: ^5.12.0
   eslint: ^7.32.0
@@ -11,7 +11,7 @@ specifiers:
   prettier: ^2.6.2
 
 dependencies:
-  '@bablr/helpers': github.com/bablr-lang/helpers/2baf82d1729b52fcf3f954147d313bcd91b6e8ac
+  '@bablr/helpers': github.com/bablr-lang/helpers/c26354b7bd6f33e25056bc5ee8da8ce0c048872d
   '@bablr/miniparser': github.com/bablr-lang/miniparser/3d3a0e2a2d7985f6a2d7857c62eccda72e7080ca
 
 devDependencies:
@@ -1813,15 +1813,22 @@ packages:
       - supports-color
     dev: true
 
-  github.com/bablr-lang/helpers/2baf82d1729b52fcf3f954147d313bcd91b6e8ac:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/helpers/tar.gz/2baf82d1729b52fcf3f954147d313bcd91b6e8ac}
+  github.com/bablr-lang/helpers/c26354b7bd6f33e25056bc5ee8da8ce0c048872d:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/helpers/tar.gz/c26354b7bd6f33e25056bc5ee8da8ce0c048872d}
     name: '@bablr/helpers'
     version: 0.0.0
     dependencies:
       '@bablr/miniparser': github.com/bablr-lang/miniparser/3d3a0e2a2d7985f6a2d7857c62eccda72e7080ca
       '@bablr/miniparser-language-nonbacktracking-js-regex': github.com/bablr-lang/miniparser-language-nonbacktracking-js-regex/4bb4de83d060b2e1caf7d9c9646b8780f87cced8
-      '@bablr/miniparser-language-spamex': github.com/bablr-lang/miniparser-language-spamex/274540b3bd22bacf0275f4227ffeff1ecb085b8d
+      '@bablr/miniparser-language-spamex': github.com/bablr-lang/miniparser-language-spamex/55ce952265cc807d8a4f5085fff0767b37245146
       iter-tools-es: 7.5.3
+    dev: false
+
+  github.com/bablr-lang/miniparser-language-nonbacktracking-js-regex/24b433f05d3d99b9199ed93dd28b0d5000fd8b1e:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/miniparser-language-nonbacktracking-js-regex/tar.gz/24b433f05d3d99b9199ed93dd28b0d5000fd8b1e}
+    name: '@bablr/miniparser-language-nonbacktracking-js-regex'
+    version: 0.0.0
+    engines: {node: '>=12.0.0'}
     dev: false
 
   github.com/bablr-lang/miniparser-language-nonbacktracking-js-regex/4bb4de83d060b2e1caf7d9c9646b8780f87cced8:
@@ -1831,13 +1838,13 @@ packages:
     engines: {node: '>=12.0.0'}
     dev: false
 
-  github.com/bablr-lang/miniparser-language-spamex/274540b3bd22bacf0275f4227ffeff1ecb085b8d:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/miniparser-language-spamex/tar.gz/274540b3bd22bacf0275f4227ffeff1ecb085b8d}
+  github.com/bablr-lang/miniparser-language-spamex/55ce952265cc807d8a4f5085fff0767b37245146:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/miniparser-language-spamex/tar.gz/55ce952265cc807d8a4f5085fff0767b37245146}
     name: '@bablr/miniparser-language-spamex'
     version: 0.0.0
     engines: {node: '>=12.0.0'}
     dependencies:
-      '@bablr/miniparser-language-nonbacktracking-js-regex': github.com/bablr-lang/miniparser-language-nonbacktracking-js-regex/4bb4de83d060b2e1caf7d9c9646b8780f87cced8
+      '@bablr/miniparser-language-nonbacktracking-js-regex': github.com/bablr-lang/miniparser-language-nonbacktracking-js-regex/24b433f05d3d99b9199ed93dd28b0d5000fd8b1e
     dev: false
 
   github.com/bablr-lang/miniparser/3d3a0e2a2d7985f6a2d7857c62eccda72e7080ca:
