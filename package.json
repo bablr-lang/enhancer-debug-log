@@ -13,8 +13,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@bablr/helpers": "github:bablr-lang/helpers#c26354b7bd6f33e25056bc5ee8da8ce0c048872d",
-    "@bablr/miniparser": "github:bablr-lang/miniparser#3d3a0e2a2d7985f6a2d7857c62eccda72e7080ca"
+    "@bablr/helpers": "github:bablr-lang/helpers#8ef702024395635c9a05fe4c9f803a48f87d902c"
   },
   "devDependencies": {
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#c040bc95f2dddac160628e4757a412016044b3ef",
