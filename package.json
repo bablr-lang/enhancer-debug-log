@@ -1,6 +1,6 @@
 {
-  "name": "@bablr/language-enhancer-debug-log",
-  "description": "A BABLR language enhancer that logs production execution",
+  "name": "@bablr/hol-debug-log",
+  "description": "A BABLR higher-order language that logs production execution",
   "version": "0.0.0",
   "author": "Conrad Buck<conartist6@gmail.com>",
   "type": "module",
@@ -13,7 +13,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@bablr/helpers": "github:bablr-lang/helpers#8ef702024395635c9a05fe4c9f803a48f87d902c"
+    "@bablr/helpers": "0.1.0"
   },
   "devDependencies": {
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#c040bc95f2dddac160628e4757a412016044b3ef",
@@ -23,7 +23,7 @@
     "eslint-plugin-import": "^2.27.5",
     "prettier": "^2.6.2"
   },
-  "repository": "github:bablr-lang/language-enhancer-debug-log",
-  "homepage": "https://github.com/bablr-lang/language-enhancer-debug-log",
+  "repository": "github:bablr-lang/hol-debug-log",
+  "homepage": "https://github.com/bablr-lang/hol-debug-log",
   "license": "MIT"
 }
