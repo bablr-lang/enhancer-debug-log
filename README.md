@@ -1,5 +1,3 @@
-import { logEnhancer } from '@bablr/hol-debug-log';
-
 # @bablr/hol-debug-log
 
 This higher order langauge `console.log`s productions as they are evaluated. It is highly useful when debugging.
