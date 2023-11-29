@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@bablr/helpers':
-    specifier: 0.1.0
-    version: 0.1.0
+    specifier: 0.1.1
+    version: 0.1.1
 
 devDependencies:
   '@bablr/eslint-config-base':
@@ -315,6 +315,11 @@ packages:
     engines: {node: '>=12.0.0'}
     dev: false
 
+  /@bablr/boot-helpers@0.1.1:
+    resolution: {integrity: sha512-2F9ewTAQjyRkXAtYj9VLAMV1e0WDRU5pTt/qKpMRdMkJoWx4ejNYGk6rBNgI9JztvDUiEPZAPk9nbX7SwQn15w==}
+    engines: {node: '>=12.0.0'}
+    dev: false
+
   /@bablr/boot@0.1.1:
     resolution: {integrity: sha512-J4WMGbw9WKn7Sc9WLS42/WcI5/q4bsCvpA4lprkh1uUsAGM8WwonApO24dMGbHKlpz/9jOdITcs6cWgKnRwOdA==}
     engines: {node: '>=12.0.0'}
@@ -327,11 +332,11 @@ packages:
       iter-tools-es: 7.5.3
     dev: false
 
-  /@bablr/helpers@0.1.0:
-    resolution: {integrity: sha512-JJPFHxQU4fwey0bLibObu/kwG7eQnhnnY7/OmmgkZmpGAYu5HLW9NDg3g+R0CYP43/UFV4imNppi0oiPZynrEg==}
+  /@bablr/helpers@0.1.1:
+    resolution: {integrity: sha512-vHaLqbCn0x+jZxKKpDXquvmmYS2ydasn1bDsmkfpJTABpbFUcnHnK6aX+yXKLyu/+ZuPGM12oJeWWquLy/H98Q==}
     dependencies:
       '@bablr/boot': 0.1.1
-      '@bablr/boot-helpers': 0.1.0
+      '@bablr/boot-helpers': 0.1.1
       iter-tools-es: 7.5.3
     dev: false
 

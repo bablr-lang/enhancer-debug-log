@@ -13,7 +13,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@bablr/helpers": "0.1.0"
+    "@bablr/helpers": "0.1.1"
   },
   "devDependencies": {
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#c040bc95f2dddac160628e4757a412016044b3ef",
