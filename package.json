@@ -1,6 +1,6 @@
 {
   "name": "@bablr/langauge_enhancer-debug-log",
-  "description": "A BABLR higher-order language that logs production execution",
+  "description": "A BABLR language enhancer that logs production execution",
   "version": "0.0.0",
   "author": "Conrad Buck<conartist6@gmail.com>",
   "type": "module",
