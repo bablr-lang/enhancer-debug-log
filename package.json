@@ -1,5 +1,5 @@
 {
-  "name": "@bablr/hol-debug-log",
+  "name": "@bablr/langauge_enhancer-debug-log",
   "description": "A BABLR higher-order language that logs production execution",
   "version": "0.0.0",
   "author": "Conrad Buck<conartist6@gmail.com>",
@@ -24,7 +24,7 @@
     "eslint-plugin-import": "^2.27.5",
     "prettier": "^2.6.2"
   },
-  "repository": "github:bablr-lang/hol-debug-log",
-  "homepage": "https://github.com/bablr-lang/hol-debug-log",
+  "repository": "github:bablr-lang/langauge_enhancer-debug-log",
+  "homepage": "https://github.com/bablr-lang/langauge_enhancer-debug-log",
   "license": "MIT"
 }

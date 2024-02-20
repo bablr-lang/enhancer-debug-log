@@ -1,6 +1,6 @@
-# @bablr/hol-debug-log
+# @bablr/language_enhancer-debug-log
 
-This higher order langauge `console.log`s productions as they are evaluated. It is highly useful when debugging.
+This langauge enhancer `console.log`s productions as they are evaluated. It is highly useful when debugging.
 
 ## Usage
 
