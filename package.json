@@ -1,5 +1,5 @@
 {
-  "name": "@bablr/langauge_enhancer-debug-log",
+  "name": "@bablr/language_enhancer-debug-log",
   "description": "A BABLR language enhancer that logs production execution",
   "version": "0.0.0",
   "author": "Conrad Buck<conartist6@gmail.com>",
@@ -7,7 +7,6 @@
   "files": [
     "lib"
   ],
-  "types": "./lib/index.d.ts",
   "exports": {
     ".": "./lib/index.js"
   },
@@ -24,7 +23,7 @@
     "eslint-plugin-import": "^2.27.5",
     "prettier": "^2.6.2"
   },
-  "repository": "github:bablr-lang/langauge_enhancer-debug-log",
-  "homepage": "https://github.com/bablr-lang/langauge_enhancer-debug-log",
+  "repository": "github:bablr-lang/language_enhancer-debug-log",
+  "homepage": "https://github.com/bablr-lang/language_enhancer-debug-log",
   "license": "MIT"
 }
