@@ -1,2 +1,4 @@
 node_modules
-play
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
