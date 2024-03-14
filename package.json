@@ -13,7 +13,7 @@
   "sideEffects": false,
   "dependencies": {
     "@bablr/helpers": "github:bablr-lang/helpers#1a32199aac2f146a818b97ec228544aa14ef73a5",
-    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#8b57f2971fc91f6dd4e23ec626a77c931c877786"
+    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#90448dbbce32f902affe36efc2cc3bb17fd9e032"
   },
   "devDependencies": {
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#c040bc95f2dddac160628e4757a412016044b3ef",
