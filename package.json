@@ -12,7 +12,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@bablr/helpers": "github:bablr-lang/helpers#3b7124900d97329e38a444f099a2f751cf3a5724",
+    "@bablr/bablr-helpers": "github:bablr-lang/helpers#3b7124900d97329e38a444f099a2f751cf3a5724",
     "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#06c2deeda4804fcb6a5022cf2db677f8e89eb249"
   },
   "devDependencies": {
